@@ -1,0 +1,54 @@
+.appointments-container {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 45px;
+    font-family: 'Poppins', sans-serif;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .appointments-container h2 {
+    color: #00308f;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  .appointments-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .appointments-table th,
+  .appointments-table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .appointments-table th {
+    background-color: #1e4edb;
+    color: white;
+  }
+  
+  .cancel-btn {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #f44336;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .cancel-btn:hover:enabled {
+    background-color: #d32f2f;
+  }
+  
+  .cancel-btn:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+  }
+  

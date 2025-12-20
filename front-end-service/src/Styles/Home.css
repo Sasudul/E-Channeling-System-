@@ -1,0 +1,179 @@
+/* Reset and font */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url('https://static.vecteezy.com/system/resources/previews/002/783/363/large_2x/blur-hospital-background-free-photo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #222;
+  }
+
+  /* Hero Section */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 60px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-content {
+    max-width: 600px;
+  }
+  
+  .hero h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .hero h1 span {
+    color: #ffe600;
+  }
+  
+  .hero p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: #f1f1f1;
+  }
+  
+  .hero-buttons a {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 12px 22px;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .hero-buttons .book {
+    background-color: #1e4edb;
+    color: #fff;
+  }
+  
+  .hero-buttons .book:hover {
+    background-color: #163bb8;
+  }
+  
+  .hero-buttons .learn {
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+  .hero-buttons .learn:hover {
+    background-color: #fff;
+    color: #1e4edb;
+  }
+  
+  .hero img {
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  }
+  
+  .how-it-works {
+    padding: 100px 60px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .how-it-works h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 60px;
+    color: #ffffff;
+    font-weight: 800;
+  
+  }
+  
+  .steps-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    flex-wrap: wrap;
+  
+  }
+  
+  .step {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+     min-height: 300px; /* Increased height */
+  }
+  
+  .step:hover {
+    transform: translateY(-5px);
+  }
+  
+  .step img {
+    width: 100px;
+    height:100px;
+    margin-bottom: 20px;
+  }
+  
+  .step h3 {
+    font-size: 1.3em;
+    color: #1e4edb;
+    margin-bottom: 10px;
+  }
+  
+  .step p {
+    color: #444;
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  /* Footer */
+  .site-footer {
+    background-color: #00008b;
+    color: #fff;
+    padding: 50px 60px 20px;
+    margin-top: 60px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 400px; /* Adjust the spacing between Contact and About */
+    flex-wrap: wrap;
+  }
+  
+  
+  .footer-about,
+  .footer-contact {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-about h3,
+  .footer-contact h3 {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    color: #ffe600;
+  }
+  
+  .footer-about p,
+  .footer-contact p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #f1f1f1;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 0.9em;
+    color: #e0e0e0;
+  }
+  

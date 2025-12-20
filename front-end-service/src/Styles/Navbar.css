@@ -1,0 +1,83 @@
+  
+  /* Header */
+  .site-header {
+    background: white;
+    color: white;
+    padding: 13px 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Header Logo */
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.9em;
+    font-weight: 700;
+    color: #00308f;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 12px;
+    border-radius: 8px;
+  }
+  
+  /* Navigation */
+  .site-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .site-nav a {
+    margin-left: 24px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    color:#00308f;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  
+  .site-nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 2px;
+    width: 100%;
+    background-color: #00308f;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    transform-origin: right;
+  }
+  
+  .site-nav a:hover {
+    color: #ffe600;
+  }
+  
+  .site-nav a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  
+  .btn.btn-primary {
+    background-color: #ffe600;
+    color: #00308f;
+    padding: 10px 20px;
+    margin-left: 30px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn.btn-primary:hover {
+    background-color: #ffcc00;
+    transform: translateY(-2px);
+  }
+  
