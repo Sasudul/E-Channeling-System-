@@ -1,0 +1,156 @@
+
+.channel-doctor-section {
+  padding: 5rem 0;
+  background-color: white;
+}
+
+.channel-doctor-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 640px) {
+  .channel-doctor-container {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .channel-doctor-container {
+    padding: 0 2rem;
+  }
+}
+
+.channel-doctor-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.channel-doctor-title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.channel-doctor-description {
+  font-size: 1.25rem;
+  color: #4b5563;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.channel-doctor-filter {
+  margin-bottom: 2rem;
+}
+
+.filter-label {
+  display: block;
+  color: #374151;
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.filter-select {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 2px solid #d1d5db;
+  border-radius: 0.5rem;
+  font-size: 1.125rem;
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .filter-select {
+    width: 24rem;
+  }
+}
+
+.filter-select:focus {
+  border-color: #2563eb;
+}
+
+.doctors-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .doctors-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .doctors-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.doctor-card {
+  background-color: white;
+  border: 2px solid #e5e7eb;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  transition: all 0.3s;
+}
+
+.doctor-card:hover {
+  border-color: #93c5fd;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-info {
+  text-align: center;
+}
+
+.doctor-image {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  object-fit: cover;
+}
+
+.doctor-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.doctor-specialty {
+  color: #2563eb;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.doctor-experience {
+  color: #4b5563;
+  margin-bottom: 0.5rem;
+}
+
+
+.book-appointment-btn {
+  width: 175px;
+  background-color: #2563eb;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin-top: 30px;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.book-appointment-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.search-button:hover {
+  background-color: #e0e7ff;
+}
