@@ -1,0 +1,13 @@
+create database patient_ms;
+use patient_ms;
+
+CREATE TABLE patients (
+    patient_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    dob DATE,
+    gender VARCHAR(15),
+    contact_number VARCHAR(15),
+    email VARCHAR(100),
+    address TEXT,
+    photo_url VARCHAR(255)
+);
