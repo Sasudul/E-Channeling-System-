@@ -1,0 +1,12 @@
+create database doctor_ms;
+use doctor_ms;
+
+CREATE TABLE doctors (
+    doctor_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    specialization VARCHAR(100),
+    contact_number VARCHAR(15),
+    email VARCHAR(100),
+    hospital VARCHAR(150),
+	photo_url VARCHAR(255)
+);
